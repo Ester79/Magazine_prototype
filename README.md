@@ -1,0 +1,1 @@
+# Magazine_prototype
