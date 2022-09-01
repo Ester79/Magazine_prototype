@@ -1,0 +1,31 @@
+
+<div class="group headerGroup">
+  <div class="iconSearch">
+    <mat-icon>image_search</mat-icon>
+  </div>
+  <p class="category">{{news.category}}</p>
+
+  <div class="caretIcon">
+    <mat-icon id="caret">arrow_right</mat-icon>
+  </div>
+  <p class="subcategory">{{news.subcategory}}</p>
+
+  <div class="group dateGroup">
+    <div class="timeIcon">
+      <mat-icon>access_time</mat-icon>
+    </div>
+    <p class="date">{{news.date | date: 'MMM d, H:mm'}}</p>
+  </div>
+</div>
+
+<div class="group">
+  <div class="bodyAvatar"><img *ngIf="news.avatar != ''" src="{{news.avatar}}.png" alt=""></div>
+  <div class="bodyTitleAuthor">
+    <div class="bodyAuthor">{{news.author}}</div>
+    <div class="bodyTitle">{{news.title}}</div>
+  </div>
+</div>
+
+<div class="contentText">{{news.content}}</div>
+<div class="contentImg"><img *ngIf="news.img != ''" src="{{news.img}}.png" alt=""></div>
+<app-socialactions></app-socialactions>

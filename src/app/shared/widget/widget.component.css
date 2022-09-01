@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 305px;
+  padding-left: 0px;
+  display: none;
+}
+
+.widgets {
+  width: 300px;
+  height: 154px;
+  border: 1px solid #DDDEDF;
+  border-radius: 4px;
+  background-color: #304C70;
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+.widgetText1 {
+  background-color: #FFFFFF;
+  width: 250px;
+  height: 10px;
+  margin-top: 36px;
+  margin-left: 22px;
+  margin-right: 62px;
+}
+
+.widgetText2 {
+  background-color: #FFFFFF;
+  width: 195px;
+  height: 10px;
+  margin-top: 16px;
+  margin-left: 22px;
+}
+
+.widgetButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 56px;
+  margin-top: 24px;
+  background-color: #E5E5E5;
+  border: 1px solid #304C70;
+  border-radius: 4px;
+}
+
+.widgetLink {
+  width: 109px;
+  height: 10px;
+  background-color: #304C70;
+}
+
+.widgetIcon {
+  background-color: #304C70;
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  border-radius: 50%;
+}
+
+
+/*RESPONSIVE WEB MOBILE*/
+@media (max-width: 768px) {
+  .container {
+    width: 341px;
+    margin-bottom: 1px;
+    display: none;
+  }
+
+  .widgets {
+    width: 340px;
+    height: 150px;
+  }
+
+  .widgetButton {
+    width: 340px;
+  }
+
+  .widgetText1 {
+    width: 293px;
+  }
+}

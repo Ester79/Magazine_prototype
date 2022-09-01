@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Analysis",
+    "subcategory": "Webinars",
+    "date": "2022-05-23T10:44:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "Premium Webinar: 'Elliott Wave Theory Live Trading' by Juan Maldonado",
+    "content": "Juan will find high probability trades based on the Elliott Wave Theory on different markets. Get ready to jump into the next wave and find the right way to use the theory in live markets. Starting at 13:00 GMT!",
+    "avatar": "assets/img/Avatar",
+    "img": "assets/img/image_webinar"
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "Forex Today",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "Dollar attempts recovery after Fed, data blows, gold clings to $1,900, cryptos climb",
+    "content": "Here is what you need to know on Wednesday, May 22: The market mood is cautiously optimistic, yet the dollar and yields are off Fed and data-driven lows. Gold is holding onto $1,900 and the kiwi stands out after the RBNZs hawkish decision.",
+    "avatar": "assets/img/Avatar",
+    "img": "assets/img/image_bank"
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "FXS Recommended Analysis",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "FOMC April Minutes: The fist shoe drops",
+    "content": "US Federal Reserve hints the time for talking rates may be here. FOMC Minutes suggest rapid economic growth could tip policy. Read FXS Senior Analyst Joseph Trevisani article published after this report release.",
+    "avatar": "assets/img/Avatar",
+    "img": ""
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "Hints & Explanations",
+    "date": "2022-05-22T18:15:00",
+    "author": "Gonçalo Moreira, CMT | FXStreet",
+    "title": "Current open trades explanation",
+    "content": "Watch this video for technical contextualization of the current open trades. Hints are given on how to draw charts and explore key price areas.",
+    "avatar": "assets/img/Avatar1",
+    "img": "assets/img/image_video"
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "FXS Premium Signals",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "Weekly performance report",
+    "content": " We have now 8 trades open, and the effective leverage level on our account is approximately 0.8:1.  The effective leverage is the ratio between all the open trades (the amount of capital committed) and the equity (balance -+ open trades). We always recommend using a ratio of 1:1 per trade to have",
+    "avatar": "assets/img/Avatar",
+    "img": ""
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "Performance reports",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "9 trades open, leverage level 1.5:1",
+    "content": " The FXS Signals service closes the week with a positive return in pips of +535.  The net balance result shows a percentage win for the current week of +0.5%. There were a total of 47 trades closed this week, 36 of which were winners (76% win rate)",
+    "avatar": "assets/img/Avatar",
+    "img": ""
+  }
+]

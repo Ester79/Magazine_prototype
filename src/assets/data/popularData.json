@@ -1,0 +1,43 @@
+[
+  {
+    "category": "Analysis",
+    "subcategory": "Review & Stats",
+    "date": "2022-05-24T11:02:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "FXS Premium Signals. 7 trades open, leverage level 0.7:1",
+    "content": "We have now 6 trades open, and the effective leverage level on our account is approximately 0.8:1. The effective leverage is the ratio between all the open trades (the amount of capital committed) and the equity (balance -+ open trades). We always recommend using a ratio of 1:1 per trade to have",
+    "avatar": "assets/img/Avatar",
+    "img": "assets/img/image15"
+  },
+
+  {
+    "category": "Analysis",
+    "subcategory": "Risk Apettite",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "Nascent signs of structural brightening",
+    "content": "Today, the market mood is a bit more mixed according to our market indicators for risk appetite, with conflicting readings from the NZD/JPY rising together with the bond markets. Nevertheless, the monitor shows a slightly higher number of markets feeling sunny (8 out of 15).",
+    "avatar": "assets/img/Avatar1",
+    "img": "assets/img/image_graph"
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "Economic Indicator",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "US ISM Services PMI May",
+    "content": "Today at 14:00 GMT in the US we will have the release of the US ISM Services (May). Something unusual appears to be happening in US labor markets and it may be the key to how traders view the American economic recovery. More info in 'The employment puzzle' preview by Joseph Trevisani.",
+    "avatar": "assets/img/Avatar",
+    "img": ""
+  },
+  {
+    "category": "Analysis",
+    "subcategory": "FXS Premium Signals",
+    "date": "2022-05-22T18:15:00",
+    "author": "FXStreet Team | FXStreet",
+    "title": "9 trades open, leverage level 1.5:1",
+    "content": "We just updated our pending orders, adding two new ones: LMT LONG TRADE on USD/JPY and LMT SHORT TRADE on USD/CHF. Check all of them here!",
+    "avatar": "assets/img/Avatar",
+    "img": ""
+  }
+]

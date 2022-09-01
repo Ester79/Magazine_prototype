@@ -1,0 +1,54 @@
+<div class="socialactions">
+
+  <!--Like option-->
+  <mat-icon [hidden]="beforeClickLike" class="socialIcons likeHover">favorite_border</mat-icon>
+  <mat-icon [hidden]="afterClickLike" class="socialIcons"><span style="color: #D25746">favorite</span></mat-icon>
+  <div class="socialText likeHover likeText" [hidden]="beforeClickLike" (click)="togleLike()">Like</div>
+  <div class="socialText likeText" [hidden]="afterClickLike" (click)="togleLike()"><span
+      style="color:#D25746">Liked!</span></div>
+
+  <!--Save option-->
+  <mat-icon [hidden]="beforeClickSave" class="socialIcons saveHover ">bookmark_border</mat-icon>
+  <mat-icon [hidden]="afterClickSave" class="socialIcons"><span style="color: #338473">bookmark</span></mat-icon>
+  <div class=" socialText saveHover saveText" [hidden]="beforeClickSave" (click)="togleSave()">Save</div>
+  <div class="socialText saveText" [hidden]="afterClickSave" (click)="togleSave()"><span
+      style="color:#338473">Saved!</span></div>
+
+
+  <!--Menu option-->
+  <mat-icon class=" material-icons dots" (click)="openMenu()">more_horiz</mat-icon>
+  <div class="menu" [hidden]="menuClosed">
+    <fieldset>
+      <div class="menuHeader">
+        <i class="material-icons">arrow_back</i>
+        <p>Tell us why</p>
+      </div>
+      <div>
+        <input type="radio" id="author" value="Author" name="selectedMenu" class="inputs">
+        <label for="author">I'm not interested in this author</label>
+      </div>
+      <div>
+        <input type="radio" id="topic" value="Topic" name="selectedMenu" class="inputs">
+        <label for="topic">I'm not interested in this topic</label>
+      </div>
+      <div>
+        <input type="radio" id="topic" value="ManyTopics" name="selectedMenu" class="inputs">
+        <label for="many">I've seen too many posts on this topic</label>
+      </div>
+      <div>
+        <input type="radio" id="info" value="Information" name="selectedMenu" class="inputs">
+        <label for="info">The information is incorrect</label>
+      </div>
+      <div>
+        <input type="radio" id="post" value="PostBefore" name="selectedMenu" class="inputs">
+        <label for="post">I've seen this post before</label>
+      </div>
+      <div>
+        <input type="radio" id="other" value="Others" name="selectedMenu" class="inputs">
+        <label for="other">Other reasons</label>
+      </div>
+    </fieldset>
+    <button class="btnMenu" (click)="closeMenu()">Hide content</button>
+  </div>
+
+</div>

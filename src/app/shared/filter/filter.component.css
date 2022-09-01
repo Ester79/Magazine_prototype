@@ -1,0 +1,77 @@
+.container {
+  width: 700px;
+  height: 65px;
+  background-color: #ECECF1;
+  display: flex;
+  flex-direction: row;
+}
+
+.globalText {
+  font-weight: 700;
+  font-size: 17.6px;
+  cursor: default;
+}
+
+#latestLink {
+  width: 76px;
+  margin: 34px 19px 10px 30px;
+  color: #E4871B;
+}
+
+#latestLink:hover {
+  color: #49494F;
+}
+
+#popularLink {
+  width: 76px;
+  margin: 34px 353px 10px 30px;
+  color: #8C8D91;
+}
+
+#popularLink:hover {
+  color: #49494F;
+}
+
+#show {
+  width: 50px;
+  font-size: 14.72px;
+  font-weight: 400;
+  margin: 34px 11px 10px;
+  color: #49494F;
+}
+
+#all {
+  color: #49494F;
+  margin: 34px 2px 10px;
+}
+
+#icon {
+  font-size: 21px;
+  font-weight: 400;
+  margin: 35px 0 9px;
+}
+
+
+/*RESPONSIVE WEB MOBILE*/
+@media (max-width: 768px) {
+  .container {
+    width: 380px;
+  }
+
+  #show {
+    display: none;
+  }
+
+  #all {
+    display: none;
+  }
+
+  #icon {
+    display: none;
+  }
+
+  #popularLink {
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+}

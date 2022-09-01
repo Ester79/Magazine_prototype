@@ -1,0 +1,14 @@
+.container {
+  width: 700px;
+  margin-left: 1px;
+  font-family: Roboto;
+  background-color: #FFFFFF;
+  padding: 0px;
+}
+
+/*RESPONSIVE WEB MOBILE*/
+@media (max-width: 768px) {
+  .container {
+    width: 350px;
+  }
+}

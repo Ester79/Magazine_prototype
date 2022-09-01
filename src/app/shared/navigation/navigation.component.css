@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  height: 65px;
+  width: 1185px;
+  background-color: #FFFFFF;
+}
+
+.menuBack {
+  display: flex;
+  margin-top: 24px;
+  height: 18px;
+  align-items: center;
+  margin: 24px 512px 23px 26px;
+}
+
+.backIcon {
+  background-color: #304C70;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.backLink {
+  width: 136px;
+  height: 10px;
+  background-color: #304C70;
+}
+
+.menuProfile {
+  width: 136px;
+  height: 10px;
+  background-color: #E4871B;
+  margin: 28px 52px;
+}
+
+.helpIcon1 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #8C8D91;
+  margin-top: 24px;
+}
+
+#help2 {
+  margin-left: 49px;
+  margin-right: 49px;
+}
+
+.helpLink {
+  background-color: #8C8D91;
+  width: 91px;
+  height: 10px;
+  margin-left: 10px;
+  margin-top: 28px;
+}
+
+
+
+/*RESPONSIVE WEB MOBILE*/
+@media (max-width: 768px) {
+  .container {
+    display: none;
+  }
+}

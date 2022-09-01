@@ -1,0 +1,152 @@
+.socialactions {
+  display: flex;
+  flex-direction: row;
+  width: 642px;
+  height: 66px;
+  margin-left: 29px;
+  background-color: #FFFFFF;
+}
+
+.socialText {
+  width: 40px;
+  height: 19px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #49494F;
+  cursor: pointer;
+}
+
+.socialIcons {
+  width: 25px;
+  margin-right: 5px;
+  margin-top: 25px;
+}
+
+.likeText {
+  margin-right: 42px;
+  margin-top: 25px;
+}
+
+.saveText {
+  margin-right: 46px;
+  margin-top: 25px;
+}
+
+.likeHover:hover {
+  color: #D25746;
+}
+
+.saveHover:hover {
+  color: #338473;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  width: 25px;
+  background-color: #F3F3F8;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+.menu {
+  flex-direction: column;
+  width: 290px;
+  height: 398px;
+  margin-top: 44px;
+  border: 1px solid #DDDEDF;
+  background-color: #FFFFFF;
+  z-index: 5000;
+}
+
+label {
+  font-size: 14px;
+}
+
+.menu>label {
+  margin-top: 22px;
+  margin-left: 8px;
+  color: #49494F;
+}
+
+.menu .inputs {
+  color: #49494F;
+  width: 21px;
+  height: 17px;
+  margin-left: 24px;
+  margin-bottom: 22px;
+  font-size: 14.72px;
+}
+
+.btnMenu {
+  width: 242px;
+  height: 42px;
+  border: 1px solid #1B1C23;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 22px;
+  margin-left: 24px;
+}
+
+.menuHeader {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background-color: #F0F0F1;
+  margin-bottom: 20px;
+}
+
+.menuHeader>i {
+  margin-left: 16px;
+  margin-right: 8px;
+  font-size: 21px;
+  font-weight: 400;
+  width: 27px;
+  height: 17px;
+  color: #49494F;
+}
+
+.menuHeader>p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #49494F;
+  height: 26px;
+  margin-top: 17px;
+}
+
+
+/*RESPONSIVE WEB MOBILE*/
+@media (max-width: 768px) {
+  .socialactions {
+    width: 344px;
+    margin-left: 0px;
+    height: 58px;
+  }
+
+  .likeText {
+    font-size: 16px;
+    margin-top: 19px;
+  }
+
+  .saveText {
+    font-size: 16px;
+    margin-top: 19px;
+  }
+
+  .socialIcons {
+    font-size: 21px;
+    margin-top: 19px;
+  }
+
+  .dots {
+    width: 21px;
+    margin-top: 19px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
